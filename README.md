@@ -1,5 +1,5 @@
 # cis-benchmark-to-csv
-Converts **dumped text** from CIS Benchmark PDFs into usable CSV & Excel files.
+Converts CIS Benchmark PDFs into usable CSV & Excel files.
 
 For expected numbers see the [reference results](reference_results.md) of the conversions.
 
