@@ -8,12 +8,11 @@ For expected numbers see the [reference results](reference_results.md) of the co
 - For Excel output install the `xlsxwriter` Python package
 
 ## Dumping Text
-**Warning:** Adobe Acrobat DC on Windows will produce broken txt files. Use Adobe Acrobat DC on MacOS only.
 ```
-In Adobe Acrobat DC:
-- File -> Export To -> Text (Plain)
-- Ensure export is set to Settings -> UTF-8
-- Uncheck "View Result"
+Complie pdf2txt.go to pdf2txt then:
+- pdf2txt: ./pdf2txt CIS_Kubernetes_Benchmark_v1.6.0.pdf > CIS_Kubernetes_Benchmark_v1.6.0.txt
+- Convert txt to excel:  python3 cis2excel.py CIS_Kubernetes_Benchmark_v1.6.0.txt
+- Convert xlsx to yaml
 ```
 
 ## Program Usage
