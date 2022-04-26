@@ -1,3 +1,4 @@
+Forked from fragtastic/cis-benchmark-converter. No need for Adobe Acrobat DC.
 # cis-benchmark-to-csv
 Converts CIS Benchmark PDFs into usable CSV & Excel files.
 
